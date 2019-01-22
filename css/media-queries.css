@@ -1,0 +1,126 @@
+/* 1024px */
+
+@media only screen and (max-width: 1024px) {
+    .wrapper {
+        max-width: 1024px;
+        padding: 0 1.8rem;
+        overflow: hidden;
+    }
+    .header {
+        justify-content: space-between;
+    }
+    .main-content {
+        width: 960px;
+        height: 676px;
+    }
+    .wrapper-for-list-engineering-and-vacancy {
+        width: 960px;
+        height: 676px;
+    }
+    .wrapper-for-engineering-and-vacancy {
+        width: 714px;
+        height: 676px;
+    }
+    .vacancy {
+        width: 692px;
+        min-height: 432px;
+    }
+    .vacancy-card {
+        width: 714px;
+        height: 128px;
+    }
+    .form>input[type=email],
+    input[type=submit] {
+        display: none;
+    }
+    .form>input[type=button] {
+        display: block;
+    }
+    .footer-up-content {
+        flex-direction: column;
+    }
+    .wrapper-for-footer-up-form-and-logo {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        min-height: 110px;
+    }
+    .for-m-q {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-up-form>input[type=submit] {
+        display: block;
+    }
+    .footer-up-nav {
+        margin: 0;
+        padding: 0;
+        padding-top: 2.75rem;
+        max-width: 711px;
+    }
+    .footer-up-list {
+        width: 222px;
+    }
+    .rights {
+        margin-left: -2rem;
+        margin-right: -2rem;
+        padding: 0 2rem;
+    }
+}
+
+/* 768px */
+
+@media only screen and (max-width: 768px) {
+    .header-navigation {
+        display: none;
+    }
+    .menu {
+        text-align: right;
+        display: block;
+    }
+    .menu__icon {
+        display: inline-block;
+    }
+    .menu__links {
+        position: absolute;
+        display: none;
+        top: 0;
+        right: 0;
+        left: 0;
+        margin-top: 80px;
+        background-color: #292F42;
+        z-index: 1000;
+        overflow: auto;
+        padding-bottom: 50px;
+    }
+    .menu__links-item {
+        display: block;
+        padding: 2rem 0;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 600;
+        line-height: 2em;
+        font-size: 1em;
+        letter-spacing: .019em;
+        text-align: center;
+        color: #FDFDFD;
+        text-decoration: none;
+    }
+    .menu__links-item:last-child {
+        color: #86BE26;
+        font-size: 1.5em;
+    }
+    .main-content {
+        width: 712px;
+        height: 676px;
+    }
+    .wrapper-for-careers {
+        margin: 2rem -7rem;
+    }
+    .wrapper-for-engineering-and-vacancy {
+        width: 528px;
+        height: 676px;
+    }
+    .vacancy-card {
+        width: 528px;
+        height: 128px;
+    }
+}
